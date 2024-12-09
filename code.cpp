@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-/*Chuẩn hóa tên theo kiểu nước ngoài ví dụ như là
-Ngô Hoàng Minh -> Minh Ngô Hoàng*/
+/*Chuẩn hóa và tạo chuỗi tên theo kiểu nước ngoài ví dụ như là
+NgÔ HOÀng MInh -> Minh Ngô Hoàng*/
 
 char* ch(char* s) {
 	size_t k = strlen(s);
